@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Android Auto Backup rules for API 30 and below.
+    The Room database holds countdowns; DataStore holds theme and live-update settings;
+    SharedPreferences is kept for AppCompat's per-app locale storage.
+-->
+<full-backup-content>
+    <include domain="database" path="." />
+    <include domain="file" path="datastore/" />
+    <include domain="sharedpref" path="." />
+</full-backup-content>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">正点</string>
+    <string name="add_alert">新建倒计时</string>
+    <string name="add_alert_subtitle">设置时长，可选择结束后打开的应用</string>
+    <string name="notify_channel_name">倒计时提醒</string>
+    <string name="notify_channel_desc">倒计时进行中与结束时的提醒</string>
+    <string name="hour">小时</string>
+    <string name="minute">分钟</string>
+    <string name="second">秒</string>
+    <string name="alert_name">提醒名称</string>
+    <string name="alert_name_hint">选填，例如：泡面好了</string>
+    <string name="alert_name_placeholder">例如：泡面好了</string>
+    <string name="untitled_countdown">未命名倒计时</string>
+    <string name="back">返回</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="settings">设置</string>
+    <string name="no_countdown">还没有倒计时</string>
+    <string name="add_new_countdown">创建第一个倒计时</string>
+    <string name="add_countdown_description">点击右下角的 + 添加倒计时</string>
+    <plurals name="countdown_count">
+        <item quantity="other">共 %d 个倒计时</item>
+    </plurals>
+
+    <!-- Permissions -->
+    <string name="notification_permission_title">通知权限</string>
+    <string name="notification_permission_desc">开启通知权限，倒计时结束时才能及时提醒你。</string>
+    <string name="app_list_permission_title">应用列表权限</string>
+    <string name="app_list_permission_desc">开启后才能选择倒计时结束后自动打开的应用。</string>
+    <string name="deny_get_install_app_permission_description">无法读取已安装应用列表，请在系统设置中允许「正点」访问。</string>
+    <string name="live_notification_title">实时更新（Android 16+）</string>
+    <string name="live_notification_desc">在状态栏和锁屏上显示倒计时进度。</string>
+    <string name="live_notification_permission_title">开启实时更新</string>
+    <string name="live_notification_permission_desc">请在系统设置中允许「正点」发布实时更新，以便在状态栏和锁屏显示倒计时进度。</string>
+    <string name="battery_optimization_title">电池优化</string>
+    <string name="battery_optimization_desc">将「正点」加入电池优化白名单，确保倒计时提醒准时触发。</string>
+    <string name="background_guard_title">后台运行保护</string>
+    <string name="background_guard_desc">避免系统强制停止倒计时</string>
+    <string name="background_guard_dialog_title">后台运行保护</string>
+    <string name="background_guard_dialog_desc">如果系统经常停止倒计时，请检查下面的电池和后台设置。也可以到 dontkillmyapp.com 查看针对你手机的说明。</string>
+    <string name="background_guard_open_battery">打开电池使用详情</string>
+    <string name="background_guard_open_app_settings">打开应用系统设置</string>
+    <string name="background_guard_open_website">查看 dontkillmyapp.com</string>
+    <string name="app_language_title">应用语言</string>
+    <string name="app_language_desc">单独设置正点使用的语言</string>
+    <string name="language_system_default">跟随系统</string>
+    <string name="language_english">English</string>
+    <string name="language_chinese">简体中文</string>
+    <string name="theme_mode_title">外观</string>
+    <string name="theme_mode_desc">亮色、暗色、自动或 Material You</string>
+    <string name="theme_light">亮色</string>
+    <string name="theme_dark">暗色</string>
+    <string name="theme_auto">自动</string>
+    <string name="theme_material_you">Material You</string>
+    <string name="edit_alert">编辑倒计时</string>
+    <string name="edit_alert_subtitle">修改这个倒计时</string>
+    <string name="cannot_edit_running">倒计时运行中，停止后才能编辑</string>
+
+    <!-- Permission & Setting Actions/Statuses -->
+    <string name="status_granted">已允许</string>
+    <string name="status_enabled">已开启</string>
+    <string name="action_go_to_setting">前往设置</string>
+    <string name="action_grant">去允许</string>
+    <string name="action_ignore">暂不</string>
+
+    <!-- App Selection & Forms -->
+    <string name="target_app">结束后打开应用</string>
+    <string name="target_app_none">未选择</string>
+    <string name="select_app_title">选择应用</string>
+    <string name="select_app_subtitle">选择倒计时结束后要打开的应用</string>
+    <string name="show_system_app">显示系统应用</string>
+    <string name="refresh">刷新</string>
+    <string name="invalid_duration_toast">倒计时时长需要大于 0 秒。</string>
+    <string name="delete">删除</string>
+    <string name="countdown_delete_pending">「%1$s」将被删除</string>
+    <string name="undo">撤销</string>
+    <string name="clear">清除</string>
+    <string name="confirm">确认</string>
+    <string name="close">关闭</string>
+    <string name="search_app_hint">搜索应用名称或包名</string>
+    <string name="no_matching_apps">没有找到匹配的应用</string>
+    <string name="search">搜索</string>
+
+    <!-- Notifications -->
+    <string name="notification_running_text">倒计时进行中</string>
+    <string name="notification_running_target_text">结束后打开 %1$s</string>
+    <string name="notification_finished_title">%1$s 时间到</string>
+    <string name="notification_finished_title_no_name">时间到</string>
+    <string name="notification_finished_text">点击打开正点并重新开始这个倒计时。</string>
+    <string name="notification_finished_text_target">点击打开选中的应用并重新开始这个倒计时。</string>
+    <string name="notification_action_stop">停止</string>
+    <string name="notification_action_dismiss">忽略</string>
+</resources>
